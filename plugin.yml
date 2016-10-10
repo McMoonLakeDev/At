@@ -1,0 +1,7 @@
+name: MoonLakeAt
+main: com.minecraft.moonlake.at.AtPlugin
+version: 1.0
+author: Month_Light
+website: http://www.mcyszh.com
+# depend MoonLake 1.8
+depend: [MoonLake]
