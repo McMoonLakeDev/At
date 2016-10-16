@@ -1,0 +1,35 @@
+# MoonLakeAt At 插件
+# 作者：Month_Light
+
+# 插件版本号
+version: 1.0
+
+# 插件的前缀
+Prefix: '&3MoonLake &7>> &f'
+
+# At 设置
+At:
+  # 标题信息
+  Title: '&b玩家 &a%1$s &b@ 了你!'
+
+# 经济设置
+# 如果玩家拥有 moonlake.at.economy 权限则无视经济需求
+Economy:
+  # 是否开启经济功能
+  Enable: true
+  # 经济支持类型: money = 金币, point = 点券
+  # 不区分大小写, 如果错误的类型则默认使用 money
+  Type: 'money'
+  # 玩家使用 At 玩家需求的经济数量
+  # 玩家需要拥有 moonlake.at.use 权限才能使用
+  AtAmount: 40
+  # 玩家使用 At 全体玩家需求的经济数量
+  # 玩家需要拥有 moonlake.at.all 权限才能使用
+  AtAllAmount: 100
+
+# 插件消息配置
+Messages:
+  NoPermission: '你没有使用这个命令的权限.'
+  NoHaveEconomy: '你的 %2$s 不足够 %1$s 无法使用.'
+  ErrorNoOnline: '错误, 你 At 的目标玩家未在线.'
+  ErrorAtFormat: '错误的格式, 应使用: @(玩家名|全体玩家)空格消息. 例如: @Notch 你好!'

@@ -4,4 +4,5 @@ version: 1.0
 author: Month_Light
 website: http://www.mcyszh.com
 # depend MoonLake 1.8
-depend: [MoonLake]
+# depend MoonLake Economy 1.4.1
+depend: [MoonLake, MoonLakeEconomy]
